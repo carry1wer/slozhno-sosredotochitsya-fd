@@ -17,7 +17,10 @@ h2,
 h3,
 h4,
 h5,
-h6,
+h6 {
+  margin: 0;
+}
+
 p {
   margin: 0;
 }
@@ -39,4 +42,12 @@ a {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+}
+
+.title-decor {
+  background-color: var(--accent-color);
+}
+
+.shadow-decor {
+  text-shadow: 2px 2px 0 var(--accent-color, #ff0070);
 }

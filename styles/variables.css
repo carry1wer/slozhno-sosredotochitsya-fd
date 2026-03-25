@@ -2,3 +2,13 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+:root {
+  --font-family: "IBM Plex mono", monospace;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+}
+
+:root.theme-light .decorated-zone__rec,
+:root:not(.theme-dark):not(.theme-light) .decorated-zone__rec {
+  display: var(--rec-display, none);
+}

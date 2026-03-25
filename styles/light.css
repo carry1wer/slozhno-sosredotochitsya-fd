@@ -5,8 +5,33 @@
 */
 
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --bg-page-image: url("../images/cover-image-light.png");
+  --bg-color: #fff1f7;
+  --button-text-color: #353430;
+  --theme-menu-button-border: #353430;
+  --theme-menu-button-hover: rgba(50, 49, 45, 0.4);
+  --title-color: #FFC2E6;
+  --accent-color: #FF8DCB;
+  --main-title-color: #353430;
+  --description-color: #353430;
+  --title-article-color: #353430;
+  --text-article-color: #353430;
+}
+
+@media (prefers-color-scheme: light) {
+  :root:not(.theme-dark) {
+    --bg-page-image: url("../images/cover-image-light.png");
+    --bg-color: #fff1f7;
+    --button-text-color: #353430;
+    --theme-menu-button-border: #353430;
+    --theme-menu-button-hover: rgba(50, 49, 45, 0.4);
+    --title-color: #FFC2E6;
+    --accent-color: #FF8DCB;
+    --main-title-color: #353430;
+    --description-color: #353430;
+    --title-article-color: #353430;
+    --text-article-color: #353430;
+
+    --rec-display: none;
+  }
 }
