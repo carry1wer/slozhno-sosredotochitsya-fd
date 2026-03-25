@@ -248,7 +248,7 @@
   list-style-type: none;
 }
 
-.section--gallery .section__list {
+.section--gallery {
   padding-inline: 10px;
   display: flex;
   gap: 9px;
