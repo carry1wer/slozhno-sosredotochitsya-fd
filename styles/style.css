@@ -136,10 +136,6 @@
   font-size: 18px;
 }
 
-.text__description {
-  margin: 0;
-}
-
 .title-decor {
   background-color: var(--accent-color);
 }
@@ -446,7 +442,7 @@
   }
 
   .section--why {
-    margin-block-end: 9px;
+    margin-block-end: 40px;
   }
 
   .section--what {
@@ -472,6 +468,10 @@
 
   .section--gallery .main__title {
     margin-block-end: 20px;
+  }
+
+  .section__articles {
+    gap: 10px;
   }
 
   .footer {
