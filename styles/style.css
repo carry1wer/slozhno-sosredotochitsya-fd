@@ -227,7 +227,7 @@
   outline: 1px solid currentColor;
 }
 
-.gallery__title {
+.main__section-title-gallery {
   font-family: var(--font-family);
   font-weight: var(--font-weight-bold);
   color: var(--title-article-color);
@@ -347,10 +347,6 @@
 
   .section--what .main__section-title {
     width: clamp(150px, 16%, 237px);
-  }
-
-  .main__section-title-gallery {
-    color: var(--title-article-color);
   }
 
   .section__content-factors {
@@ -474,6 +470,6 @@
   }
 
   .footer__title {
-    font-size: clamp (7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 }
