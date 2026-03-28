@@ -1,0 +1,1 @@
+https://github.com/carry1wer/slozhno-sosredotochitsya-fd
