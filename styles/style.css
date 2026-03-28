@@ -39,7 +39,6 @@
   position: absolute;
   inset-block-start: 10px;
   inset-inline-end: 20px;
-  display: flex;
   align-items: center;
   gap: 8px;
   color: var(--accent-color);
