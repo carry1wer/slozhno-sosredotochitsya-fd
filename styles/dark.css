@@ -7,30 +7,33 @@
 :root.theme-dark {
   --bg-page-image: url("../images/cover-image-dark.png");
   --bg-color: #000028;
-  --button-text-color: #FF0070;
+  --button-text-color: #ff0070;
   --theme-menu-button-border: #ff0070;
   --theme-menu-button-hover: rgba(255, 0, 112, 0.4);
-  --title-color: #DB00FF;
-  --accent-color: #FF0070;
-  --main-title-color: #FF0070;
+  --title-color: #db00ff;
+  --accent-color: #ff0070;
+  --main-title-color: #ff0070;
   --description-color: #000028;
   --title-article-color: #000028;
-  --text-article-color: #F1B2CE;
+  --text-article-color: #f1b2ce;
+    
+  --rec-display: flex;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root:not(.theme-light) {
+  :root {
     --bg-page-image: url("../images/cover-image-dark.png");
     --bg-color: #000028;
-    --button-text-color: #FF0070;
+    --button-text-color: #ff0070;
     --theme-menu-button-border: #ff0070;
     --theme-menu-button-hover: rgba(255, 0, 112, 0.4);
-    --title-color: #DB00FF;
-    --accent-color: #FF0070;
-    --main-title-color: #FF0070;
+    --title-color: #db00ff;
+    --accent-color: #ff0070;
+    --main-title-color: #ff0070;
     --description-color: #000028;
     --title-article-color: #000028;
-    --text-article-color: #F1B2CE;
+    --text-article-color: #f1b2ce;
+
     --rec-display: flex;
   }
 }

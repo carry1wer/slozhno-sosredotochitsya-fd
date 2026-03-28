@@ -45,11 +45,3 @@ a {
   font-size: inherit;
   line-height: inherit;
 }
-
-.title-decor {
-  background-color: var(--accent-color);
-}
-
-.shadow-decor {
-  text-shadow: 2px 2px 0 var(--accent-color, #ff0070);
-}
