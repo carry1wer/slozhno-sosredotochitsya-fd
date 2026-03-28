@@ -441,7 +441,7 @@
   }
 
   .section--what {
-    gap: 10px;
+    gap: 0px;
   }
 
   .section--what .main__section-title {
@@ -455,6 +455,10 @@
 
   .section--how .main__section-title {
     width: clamp(300px, 101%, 500px);
+  }
+
+  .section--gallery {
+    gap: 20px;
   }
 
   .section--gallery .main__section-title {
